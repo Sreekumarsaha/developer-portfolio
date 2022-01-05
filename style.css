@@ -8,6 +8,9 @@ span{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .div-half{
     width: 50%;
     padding-left: 5%;
@@ -16,7 +19,7 @@ h1{
     width: 90%;
    
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,4 +40,32 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right ;
+}
+.new-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    border-image: gre;
+}
+.background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#developer1{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+#developer2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    
+    border-image-slice: 1;
+}
+.foter{
+    text-align: center;
 }
